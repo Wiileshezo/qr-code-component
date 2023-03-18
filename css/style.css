@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #d6e2f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20vw;
+  margin: auto;
+  padding: 1rem;
+}
+.qr-img {
+  width: 20vw;
+  border-radius: 1rem;
+}
+.title {
+  font-weight: 700;
+  color: #1f3251;
+}
+.discr {
+  color: #7b879d;
+  font-size: 1rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-block: 0.9rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    min-height: 122vh;
+  }
+  .container {
+    width: 75vw;
+  }
+  .qr-img {
+    width: 75vw;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
+  .discr {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 32vw;
+  }
+  .qr-img {
+    width: 32vw;
+  }
+  .title {
+    font-size: 1.3rem;
+  }
+  .discr {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 24vw;
+  }
+  .qr-img {
+    width: 24vw;
+  }
+  .title {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 20vw;
+  }
+  .qr-img {
+    width: 20vw;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .discr {
+    font-size: 1rem;
+  }
+}
